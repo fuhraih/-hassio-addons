@@ -20,7 +20,6 @@ if [ $phpini = "get_file" ]; then
 fi
 
 rm -r $webrootdocker
-cp $phppath /var/www/localhost/htdocs/apache2addon_php.ini
 
 if [ ! -d $DocumentRoot ]; then
 	echo "You haven't put your website to $DocumentRoot"
