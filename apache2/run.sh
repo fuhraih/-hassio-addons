@@ -18,9 +18,9 @@ if [ $phpini = "get_file" ]; then
 	echo "Addon will now be stopped. Please remove the config option and change it to the name of your new config file (for example /share/php.ini)"
 	exit 1
 fi
-cp $phppath /var/www/localhost/htdocs/apache2addon_php.ini
 
 rm -r $webrootdocker
+cp $phppath /var/www/localhost/htdocs/apache2addon_php.ini
 
 if [ ! -d $DocumentRoot ]; then
 	echo "You haven't put your website to $DocumentRoot"
