@@ -3,7 +3,7 @@
   "version": "2.4.5",
   "slug": "apache2",
   "description": "OpenSource Webserver",
-  "url": "https://github.com/FaserF/hassio-addons/tree/master/apache2",
+  "url": "https://github.com/fuhraih/hassio-addons/tree/master/apache2",
   "arch": [
     "armhf",
     "armv7",
